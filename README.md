@@ -1,7 +1,25 @@
 # Link
 https://reactflow-three.vercel.app/
 
-# Instructions
+# Setup instructions
+1. npm install or yarn add
+- Install Dependencies
+2. npm run dev or yarn run dev
+- To start development server
+
+# Available scripts
+1. npm run dev or yarn run dev
+- To start development server
+2. npm run build or yarn run build
+- To create build
+
+# Dependencies list
+- react-flow-renderer
+- react-color
+- @reduxjs/toolkit
+- @xyflow/react
+
+# Basic usage guide
 -  You must select a node before changing its color or font size.
 -  You can drag and drop nodes freely to reposition them within the graph.
 -  You can create connections between nodes by adding edges.
