@@ -5,6 +5,7 @@ https://reactflow-three.vercel.app/
 -  You must select a node before changing its color or font size.
 -  You can drag and drop nodes freely to reposition them within the graph.
 -  You can create connections between nodes by adding edges.
+-  You can undo/redo changes.
 
 # React + TypeScript + Vite
 
