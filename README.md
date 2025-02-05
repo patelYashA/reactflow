@@ -1,3 +1,11 @@
+# Link
+https://reactflow-three.vercel.app/
+
+# Instructions
+-  You must select a node before changing its color or font size.
+-  You can drag and drop nodes freely to reposition them within the graph.
+-  You can create connections between nodes by adding edges.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
