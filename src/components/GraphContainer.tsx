@@ -26,7 +26,7 @@ const GraphContainer: React.FC = () => {
   const [nodes, setNodes] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
   const dispatch = useDispatch();
-  const debounceTimeout = useRef<NodeJS.Timeout | null>(null);
+  const debounceTimeout = useRef<number | null>(null);
 
   // Debounced function for updating node position
   const debouncedUpdateNodePosition = useCallback(

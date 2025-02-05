@@ -78,7 +78,7 @@ const graphSlice = createSlice({
     },
 
     // Add Edge
-    addEdges: (state, action: PayloadAction<{ edge: Edge }>) => {
+    addEdges: (state, action) => {
       saveState(state);
       state.present.edges.push(action.payload.edge);
     },
